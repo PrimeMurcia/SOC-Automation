@@ -1,4 +1,3 @@
-
 # SOC Automation Installation Guide
 
 Welcome to the SOC Automation Installation Guide. This guide will walk you through the steps to install and configure various components essential for setting up a Security Operations Center (SOC). The components covered in this guide are:
@@ -6,6 +5,7 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
 1. [Wazuh](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
 2. [TheHive](https://github.com/PrimeMurcia/TheHive-Installation)
 3. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
+4. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
 
 ## Table of Contents
 
@@ -15,6 +15,7 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
    - [Wazuh](#wazuh)
    - [TheHive](#thehive)
    - [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](#wazuh-nginx-monitoring-and-virustotal-integration-for-xdr)
+   - [Integration of Wazuh and TheHive](#integration-of-wazuh-and-thehive)
 4. [Configuration](#configuration)
 5. [Support](#support)
 6. [Contributing](#contributing)
@@ -53,6 +54,12 @@ This integration allows you to monitor NGINX logs using Wazuh and enhance your s
 
 - [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
 
+### Integration of Wazuh and TheHive
+
+Integrating Wazuh with TheHive allows you to automate the creation of security incidents and streamline incident response processes. Follow the guide below to integrate Wazuh with TheHive:
+
+- [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
+
 ## Configuration
 
 After installing the components, follow the configuration steps outlined in each respective guide to ensure proper integration and functionality. Make sure to:
@@ -60,6 +67,7 @@ After installing the components, follow the configuration steps outlined in each
 - Configure Wazuh agents and manager.
 - Set up TheHive connectors and users.
 - Integrate VirusTotal with Wazuh for extended detection and response.
+- Configure the integration between Wazuh and TheHive to automate incident management.
 
 ## Support
 
