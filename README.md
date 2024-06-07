@@ -6,6 +6,7 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
 2. [TheHive](https://github.com/PrimeMurcia/TheHive-Installation)
 3. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
 4. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
+5. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/edit/main/README.md)
 
 ## Table of Contents
 
@@ -16,6 +17,7 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
    - [TheHive](#thehive)
    - [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](#wazuh-nginx-monitoring-and-virustotal-integration-for-xdr)
    - [Integration of Wazuh and TheHive](#integration-of-wazuh-and-thehive)
+   - [NGINX Reverse Proxy WAF](#nginx-reverse-proxy-waf)
 4. [Configuration](#configuration)
 5. [Support](#support)
 6. [Contributing](#contributing)
@@ -60,6 +62,12 @@ Integrating Wazuh with TheHive allows you to automate the creation of security i
 
 - [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
 
+### NGINX Reverse Proxy WAF
+
+Setting up an NGINX Reverse Proxy with a Web Application Firewall (WAF) enhances the security of your web applications. Follow the guide below to set up NGINX as a reverse proxy with WAF capabilities:
+
+- [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/edit/main/README.md)
+
 ## Configuration
 
 After installing the components, follow the configuration steps outlined in each respective guide to ensure proper integration and functionality. Make sure to:
@@ -68,6 +76,7 @@ After installing the components, follow the configuration steps outlined in each
 - Set up TheHive connectors and users.
 - Integrate VirusTotal with Wazuh for extended detection and response.
 - Configure the integration between Wazuh and TheHive to automate incident management.
+- Set up and configure the NGINX reverse proxy and WAF.
 
 ## Support
 
