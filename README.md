@@ -8,6 +8,8 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
 4. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
 5. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/edit/main/README.md)
 6. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
+7. [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
+8. [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
 
 ## Table of Contents
 
@@ -20,6 +22,8 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
    - [Integration of Wazuh and TheHive](#integration-of-wazuh-and-thehive)
    - [NGINX Reverse Proxy WAF](#nginx-reverse-proxy-waf)
    - [Wazuh Vulnerability Scanning](#wazuh-vulnerability-scanning)
+   - [Wazuh, TheHive, and Shuffle Integration](#wazuh-thehive-and-shuffle-integration)
+   - [Wazuh Email Alert and Active Response](#wazuh-email-alert-and-active-response)
 4. [Configuration](#configuration)
 5. [Support](#support)
 6. [Contributing](#contributing)
@@ -76,6 +80,18 @@ Wazuh's vulnerability scanning feature helps identify vulnerabilities in your sy
 
 - [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
 
+### Wazuh, TheHive, and Shuffle Integration
+
+Integrating Wazuh, TheHive, and Shuffle provides enhanced automation for incident response workflows. Follow the guide below to set up this integration:
+
+- [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
+
+### Wazuh Email Alert and Active Response
+
+Configuring Wazuh for email alerts and active response helps in promptly addressing security incidents. Follow the guide below to set up Wazuh for email alerts and active response:
+
+- [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
+
 ## Configuration
 
 After installing the components, follow the configuration steps outlined in each respective guide to ensure proper integration and functionality. Make sure to:
@@ -86,6 +102,8 @@ After installing the components, follow the configuration steps outlined in each
 - Configure the integration between Wazuh and TheHive to automate incident management.
 - Set up and configure the NGINX reverse proxy and WAF.
 - Configure vulnerability scanning in Wazuh.
+- Set up and configure the integration between Wazuh, TheHive, and Shuffle.
+- Configure Wazuh for email alerts and active response.
 
 ## Support
 
