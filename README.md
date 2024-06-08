@@ -4,10 +4,10 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
 
 1. [Wazuh](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
 2. [TheHive](https://github.com/PrimeMurcia/TheHive-Installation)
-3. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
-4. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
-5. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/edit/main/README.md)
-6. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
+3. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
+4. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/edit/main/README.md)
+5. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
+6. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
 7. [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
 8. [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
 
@@ -18,10 +18,10 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
 3. [Installation Guide](#installation-guide)
    - [Wazuh](#wazuh)
    - [TheHive](#thehive)
+   - [Wazuh Vulnerability Scanning](#wazuh-vulnerability-scanning)
+   - [NGINX Reverse Proxy WAF](#nginx-reverse-proxy-waf)
    - [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](#wazuh-nginx-monitoring-and-virustotal-integration-for-xdr)
    - [Integration of Wazuh and TheHive](#integration-of-wazuh-and-thehive)
-   - [NGINX Reverse Proxy WAF](#nginx-reverse-proxy-waf)
-   - [Wazuh Vulnerability Scanning](#wazuh-vulnerability-scanning)
    - [Wazuh, TheHive, and Shuffle Integration](#wazuh-thehive-and-shuffle-integration)
    - [Wazuh Email Alert and Active Response](#wazuh-email-alert-and-active-response)
 4. [Configuration](#configuration)
@@ -46,19 +46,31 @@ Before starting the installation, ensure you have the following prerequisites:
 
 ### Wazuh
 
-Wazuh is a free, open-source security monitoring platform. Follow the detailed installation guide provided in the link below:
+Wazuh is a free, open-source security monitoring platform. It provides threat detection, integrity monitoring, incident response, and compliance management. Follow the detailed installation guide provided in the link below:
 
 - [Wazuh Installation Guide](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
 
 ### TheHive
 
-TheHive is a scalable, open-source, and free Security Incident Response Platform. To install TheHive, refer to the guide linked below:
+TheHive is a scalable, open-source, and free Security Incident Response Platform. It helps in managing and resolving security incidents efficiently. To install TheHive, refer to the guide linked below:
 
 - [TheHive Installation Guide](https://github.com/PrimeMurcia/TheHive-Installation)
 
+### Wazuh Vulnerability Scanning
+
+Wazuh's vulnerability scanning feature helps identify vulnerabilities in your system, ensuring your environment is secure. Follow the guide below to set up and configure vulnerability scanning with Wazuh:
+
+- [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
+
+### NGINX Reverse Proxy WAF
+
+Setting up an NGINX Reverse Proxy with a Web Application Firewall (WAF) enhances the security of your web applications by filtering and monitoring HTTP traffic. This setup uses the open-source ModSecurity and the latest OWASP Core Rule Set (CRS). Follow the guide below to set up NGINX as a reverse proxy with WAF capabilities:
+
+- [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/edit/main/README.md)
+
 ### Wazuh NGINX Monitoring and VirusTotal Integration for XDR
 
-This integration allows you to monitor NGINX logs using Wazuh and enhance your security operations with VirusTotal's intelligence. Follow the guide below to set it up:
+This integration allows you to monitor NGINX logs using Wazuh and enhance your security operations with VirusTotal's intelligence. It provides extended detection and response (XDR) capabilities. Follow the guide below to set it up:
 
 - [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
 
@@ -68,27 +80,15 @@ Integrating Wazuh with TheHive allows you to automate the creation of security i
 
 - [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
 
-### NGINX Reverse Proxy WAF
-
-Setting up an NGINX Reverse Proxy with a Web Application Firewall (WAF) enhances the security of your web applications. Follow the guide below to set up NGINX as a reverse proxy with WAF capabilities:
-
-- [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/edit/main/README.md)
-
-### Wazuh Vulnerability Scanning
-
-Wazuh's vulnerability scanning feature helps identify vulnerabilities in your system. Follow the guide below to set up and configure vulnerability scanning with Wazuh:
-
-- [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
-
 ### Wazuh, TheHive, and Shuffle Integration
 
-Integrating Wazuh, TheHive, and Shuffle provides enhanced automation for incident response workflows. Follow the guide below to set up this integration:
+Integrating Wazuh, TheHive, and Shuffle provides enhanced automation for incident response workflows. Shuffle is a workflow automation tool that further improves incident handling efficiency. Follow the guide below to set up this integration:
 
 - [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
 
 ### Wazuh Email Alert and Active Response
 
-Configuring Wazuh for email alerts and active response helps in promptly addressing security incidents. Follow the guide below to set up Wazuh for email alerts and active response:
+Configuring Wazuh for email alerts and active response helps in promptly addressing security incidents by sending alerts and taking predefined actions automatically. Follow the guide below to set up Wazuh for email alerts and active response:
 
 - [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
 
@@ -100,7 +100,7 @@ After installing the components, follow the configuration steps outlined in each
 - Set up TheHive connectors and users.
 - Integrate VirusTotal with Wazuh for extended detection and response.
 - Configure the integration between Wazuh and TheHive to automate incident management.
-- Set up and configure the NGINX reverse proxy and WAF.
+- Set up and configure the NGINX reverse proxy and WAF with ModSecurity and the latest OWASP Core Rule Set.
 - Configure vulnerability scanning in Wazuh.
 - Set up and configure the integration between Wazuh, TheHive, and Shuffle.
 - Configure Wazuh for email alerts and active response.
