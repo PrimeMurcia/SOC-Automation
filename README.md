@@ -5,11 +5,12 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
 1. [Wazuh](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
 2. [TheHive](https://github.com/PrimeMurcia/TheHive-Installation)
 3. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
-4. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/tree/main)
-5. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
-6. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
-7. [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
-8. [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
+4. [Basic Securing NGINX](https://github.com/PrimeMurcia/Basic-securing-NGINX)
+5. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/tree/main)
+6. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
+7. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
+8. [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
+9. [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
 
 ## Table of Contents
 
@@ -19,6 +20,7 @@ Welcome to the SOC Automation Installation Guide. This guide will walk you throu
    - [Wazuh](#wazuh)
    - [TheHive](#thehive)
    - [Wazuh Vulnerability Scanning](#wazuh-vulnerability-scanning)
+   - [Basic Securing NGINX](#basic-securing-nginx)
    - [NGINX Reverse Proxy WAF](#nginx-reverse-proxy-waf)
    - [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](#wazuh-nginx-monitoring-and-virustotal-integration-for-xdr)
    - [Integration of Wazuh and TheHive](#integration-of-wazuh-and-thehive)
@@ -64,6 +66,12 @@ Wazuh's vulnerability scanning feature helps identify vulnerabilities in your sy
 
 - [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
 
+### Basic Securing NGINX
+
+Securing NGINX involves configuring several security measures to protect your web server. This includes setting secure headers, implementing basic authentication, and using allow/deny directives to control access. Follow the guide below for detailed steps:
+
+- [Basic Securing NGINX](https://github.com/PrimeMurcia/Basic-securing-NGINX)
+
 ### NGINX Reverse Proxy WAF
 
 Setting up an NGINX Reverse Proxy with a Web Application Firewall (WAF) enhances the security of your web applications by filtering and monitoring HTTP traffic. This setup uses the open-source ModSecurity and the latest OWASP Core Rule Set (CRS). Follow the guide below to set up NGINX as a reverse proxy with WAF capabilities:
@@ -103,6 +111,7 @@ After installing the components, follow the configuration steps outlined in each
 - Integrate VirusTotal with Wazuh for extended detection and response.
 - Configure the integration between Wazuh and TheHive to automate incident management.
 - Set up and configure the NGINX reverse proxy and WAF with ModSecurity and the latest OWASP Core Rule Set.
+- Configure basic security measures in NGINX, including secure headers, basic authentication, and allow/deny directives.
 - Configure vulnerability scanning in Wazuh.
 - Set up and configure the integration between Wazuh, TheHive, and Shuffle.
 - Configure Wazuh for email alerts and active response.
