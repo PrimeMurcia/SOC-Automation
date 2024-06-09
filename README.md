@@ -2,21 +2,23 @@
 
 Welcome to the SOC Automation Installation Guide. This guide will walk you through the steps to install and configure various components essential for setting up a Security Operations Center (SOC). The components covered in this guide are:
 
-1. [Wazuh](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
-2. [TheHive](https://github.com/PrimeMurcia/TheHive-Installation)
-3. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
-4. [Basic Securing NGINX](https://github.com/PrimeMurcia/Basic-securing-NGINX)
-5. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/tree/main)
-6. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
-7. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
-8. [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
-9. [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
+1. [Basic Securing Linux](https://github.com/PrimeMurcia/Secure-SSH-Connection)
+2. [Wazuh](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
+3. [TheHive](https://github.com/PrimeMurcia/TheHive-Installation)
+4. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
+5. [Basic Securing NGINX](https://github.com/PrimeMurcia/Basic-securing-NGINX)
+6. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/tree/main)
+7. [Wazuh NGINX Monitoring and VirusTotal Integration for XDR](https://github.com/PrimeMurcia/Wazuh-nginx-monitoring-and-Virus-total)
+8. [Integration of Wazuh and TheHive](https://github.com/PrimeMurcia/Wazuh-SIEM-The-Hive-Integration/tree/main)
+9. [Wazuh, TheHive, and Shuffle Integration](https://github.com/PrimeMurcia/Wazuh-TheHive-and-Shuffle-integration)
+10. [Wazuh Email Alert and Active Response](https://github.com/PrimeMurcia/Wazuh-Email-Alert-and-Active-respond)
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Installation Guide](#installation-guide)
+   - [Basic Securing Linux](#basic-securing-linux)
    - [Wazuh](#wazuh)
    - [TheHive](#thehive)
    - [Wazuh Vulnerability Scanning](#wazuh-vulnerability-scanning)
@@ -47,6 +49,18 @@ Before starting the installation, ensure you have the following prerequisites:
 - Basic knowledge of Linux commands
 
 ## Installation Guide
+
+### Basic Securing Linux
+
+Securing your Linux environment is critical for protecting against unauthorized access and attacks. This involves:
+
+- **Securing SSH**: Implementing secure SSH configurations to prevent unauthorized access.
+- **UFW (Uncomplicated Firewall)**: Setting up UFW to manage iptables firewall rules and restrict access to the server.
+- **Fail2Ban**: Installing and configuring Fail2Ban to protect the server from brute-force attacks by banning IPs that show malicious signs.
+
+Follow the detailed guide provided in the link below for securing your Linux environment:
+
+- [Basic Securing Linux](https://github.com/PrimeMurcia/Secure-SSH-Connection)
 
 ### Wazuh
 
@@ -106,6 +120,7 @@ Configuring Wazuh for email alerts and active response helps in promptly address
 
 After installing the components, follow the configuration steps outlined in each respective guide to ensure proper integration and functionality. Make sure to:
 
+- Configure secure SSH settings, UFW, and Fail2Ban for Linux.
 - Configure Wazuh agents and manager.
 - Set up TheHive connectors and users.
 - Integrate VirusTotal with Wazuh for extended detection and response.
