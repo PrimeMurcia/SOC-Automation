@@ -76,7 +76,7 @@ TheHive is a scalable, open-source, and free Security Incident Response Platform
 
 ### Wazuh Vulnerability Scanning
 
-Wazuh's vulnerability scanning feature helps identify vulnerabilities in your system, ensuring your environment is secure. Follow the guide below to set up and configure vulnerability scanning with Wazuh:
+Wazuh's vulnerability scanning feature helps identify vulnerabilities in your system, ensuring your environment is secure. Note that this feature primarily shows outdated versions of some services that have common CVEs (Common Vulnerabilities and Exposures) and some misconfigurations. It does not perform web application scanning. For web application scanning, consider using tools like Nmap, Nikto, and OpenVAS. Follow the guide below to set up and configure vulnerability scanning with Wazuh:
 
 - [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
 
