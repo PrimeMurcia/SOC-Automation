@@ -1,6 +1,6 @@
 # SOC Automation Installation Guide
 
-Welcome to the SOC Automation Installation Guide. This guide will walk you through the steps to install and configure various components essential for setting up a Security Operations Center (SOC). The components covered in this guide are:
+Welcome to the SOC Automation Installation Guide, designed to assist you in establishing a Security Operations Center (SOC) with a primary focus on enhancing web application security. Throughout this guide, we'll navigate the installation and configuration of critical components necessary for robust SOC operations. Let's dive into the essential components:
 
 1. [Basic Securing Linux](https://github.com/PrimeMurcia/Secure-SSH-Connection)
 2. [Wazuh](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
