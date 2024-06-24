@@ -5,7 +5,7 @@ Welcome to the SOC Automation Installation Guide, designed to assist you in esta
 1. [Basic Securing Linux](https://github.com/PrimeMurcia/Secure-SSH-Connection)
 2. [Wazuh](https://github.com/PrimeMurcia/Wazuh-Installation-Guide)
 3. [TheHive](https://github.com/PrimeMurcia/TheHive-Installation)
-4. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning/blob/main/README.md)
+4. [Wazuh Vulnerability Scanning](https://github.com/PrimeMurcia/Wazuh-Vulnerability-Scanning)
 5. [Basic Securing NGINX](https://github.com/PrimeMurcia/Basic-securing-NGINX)
 6. [NGINX Reverse Proxy WAF](https://github.com/PrimeMurcia/nginx-reverse-proxy-WAF/tree/main)
 7. [Wazuh with YARA](https://github.com/PrimeMurcia/Wazuh-with-yara)
